@@ -1,0 +1,49 @@
+
+body {
+  background-color: tan;
+}
+
+
+p {
+  margin: 0;
+  padding: 30px;
+  max-width: 2000px;
+  display: inline-block;
+  border-width: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  position: relative;
+}
+
+.t20-r30 {
+  top: 20px;
+  right: 30px;
+}
+
+.t40-l10 {
+  top: 40px;
+  left: 10px;
+}
+
+.b15-l30 {
+  bottom: 15px;
+  left: 30px;
+}
+
+.b25-r20 {
+  bottom: 25px;
+  right: 20px;
+}
+
+.tan {
+  color: navajowhite;
+}
+.brown {
+  color: saddlebrown;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}

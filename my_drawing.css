@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+#canvas {
+  width: 500px;
+  height: 600px;
+  margin: 50px auto;
+  background-color: gray;
+}
+
+#body {
+  position: absolute;
+  width: 380px;
+  height: 400px;
+  top: 200px;
+  right: 160px;
+  background: burlywood;
+  border-radius: 50% 50% 40% 40%;
+}
+
+#head {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  top: -100px;
+  left: 80px;
+  background-color: burlywood;
+  border-radius: 50% 50% 50% 50%;
+}
+
+#earL {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: -30px;
+  left: 35px;
+  background-color: saddlebrown;
+  border-radius: 50% 50% 20% 20%;
+  transform: rotate(-18deg);
+}
+
+#earR {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 35px;
+  left: 100px;
+  background-color: saddlebrown;
+  border-radius: 50% 50% 20% 20%;
+  transform: rotate(40deg);
+}
+
+#innerearR {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  top: 50px;
+  left: -85px;
+  background-color: pink;
+  border-radius: 50% 50% 20% 20%;
+  transform: rotate(-40deg);
+}
+
+#innerearL {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  top: 33px;
+  left: 95px;
+  background-color: pink;
+  border-radius: 50% 50% 20% 20%;
+  transform: rotate(40deg);
+}
+
+#eyeL {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: black;
+  top: 80px;
+  left: 15px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+#eyeR {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: black;
+  top: 25px;
+  right: 55px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+
+#highlightL {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  top: -20px;
+  left: 70px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+#highlightR {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  top: 25px;
+  right: 55px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+#nose {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background: pink;
+  top: 25px;
+  right: -50px;
+  border-radius: 20% 20% 50% 50%;
+  transform: rotate(-20deg)
+}
+
+#stomach {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 90px;
+  right: -140px;
+  background: white;
+  border-radius: 50% 50% 40% 40%;
+  transform: rotate(-2deg)
+}
+
+
+
+
+
+
+
+
+#tophair {
+  width: 300px;
+  height: 100px;
+  background: black;
+  border-radius: 50% 50% 0% 0%;
+}
+
+#curlyhair1 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -15px;
+  left: -8px;
+  background: black;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(15deg);
+}
+
+#curlyhair2 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -15px;
+  right: -8px;
+  background: black;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-15deg);
+}
+
+#curlyhair3 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -5px;
+  left: 5px;
+  background: black;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(1deg);
+}
+
+#curlyhair4 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -5px;
+  right: 5px;
+  background: black;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-1deg);
+}
+
+#curlyhair5 {
+  z-index: 1;
+  position: absolute;
+  width: 15px;
+  height: 100px;
+  top: -25px;
+  left: -8px;
+  background: black;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(25deg);
+}
+
+#curlyhair6 {
+  z-index: 1;
+  position: absolute;
+  width: 15px;
+  height: 100px;
+  top: -25px;
+  right: -8px;
+  background: black;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-25deg);
+}
+
+#eyebrow1 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 60px;
+  left: 50px;
+  transform: rotate(-3deg);
+}
+
+#eyebrow2 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 60px;
+  right: 50px;
+  transform: rotate(3deg);
+}
+
+
+
+#iris1 {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  top: 95px;
+  left: 75px;
+  border-radius: 50%;
+}
+
+#iris2 {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  top: 95px;
+  right: 75px;
+  border-radius: 50%;
+}
+
+#pupil1 {
+  z-index: 2;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: white;
+  top: 97px;
+  left: 80px;
+  border-radius: 50%;
+}
+
+#pupil2 {
+  z-index: 2;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: white;
+  top: 97px;
+  right: 80px;
+  border-radius: 50%;
+}
+
+
+#lips {
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  border: 30px solid;
+  border-color: transparent transparent black transparent;
+  top: 200px;
+  left: 72px;
+  border-radius: 50%;
+}
+
+#ear1 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: bisque;
+  box-shadow: inset 0 0 20px black;
+  left: -46px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-10deg);
+}
+
+#ear2 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: bisque;
+  box-shadow: inset 0 0 20px black;
+  right: -46px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(10deg);
+}

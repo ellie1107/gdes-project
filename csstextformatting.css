@@ -1,0 +1,36 @@
+body {
+  background-color: burlywood;
+}
+
+
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+.color {
+  color: burlywood;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-brown {
+  background-color: saddlebrown;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-pink {
+  background-color: lightpink;
+}
+
+.bg-tan {
+  background-color: tan;
+}
